@@ -1,0 +1,72 @@
+.opt-in-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 34rem;
+    height: 18rem;
+    border: 1px solid black;
+}
+
+h1 {
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+.wrapping {
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 1rem;
+    box-sizing: border-box
+}
+
+.logo-wrapper,
+.form-wrapper {
+    height: 12rem;
+}
+
+.logo-wrapper {
+    float: left;
+    width: 30%;
+}
+
+.form-wrapper {
+    float: right;
+    width: 60%;
+}
+
+.brand-logo {
+    background-image: url("black-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 10rem;
+    width: 10rem;
+}
+
+input {
+    padding: 0.2rem 0rem;
+    box-sizing: border-box;
+    font-size: 0.87em;
+    display: inline;
+}
+
+.name input {
+    width: 45%;
+}
+
+.email input {
+    width: 90%;
+}
+
+button {
+    background-color: orangered;
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Pacifico', cursive;
+    width: 90%;
+    padding: 0.2rem 0rem;
+    border-radius: 8px;
+    box-shadow: 0px 1px 1px #a9a9a9;
+}
